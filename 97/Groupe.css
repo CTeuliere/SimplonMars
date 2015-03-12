@@ -1,0 +1,21 @@
+body {margin:auto;
+text-align:center;
+font-family:Ubuntu Mono;}
+h1 {color:black;
+border-style:dashed;
+border-width:3.5px;
+border-radius:7px;
+border-color:#9933cc;
+width:300px;
+font-family:Garuda;}
+a {text-decoration:none;
+color:grey;}
+a:hover {font-weight:bold;
+color:#9933cc;
+font-size:20px;}
+th {width:300px;}
+.Citation {color:grey;}
+.espace {font-size:14px;}
+#Farid {font-size: 14px;}
+.Citation2 {font-size: 14px;
+color:grey;}

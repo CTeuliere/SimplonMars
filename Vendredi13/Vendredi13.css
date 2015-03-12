@@ -1,0 +1,63 @@
+body {
+	background-image: url(https://d3dcc53t14pv6.cloudfront.net/assets/masthead-bg-python-a4ff08ef309e1e3588d5e982fd8a6d5e.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.Debut {
+	width: 100%;
+}
+
+#Droite {
+	text-decoration: none;
+	color:grey;
+	font-family: URW Gothic L;
+	font-size: 14px;
+	float: right;
+	margin-right: 140px;
+	margin-top: -35px;
+}
+
+#Gauche {
+	margin-left: 100px;
+	display: block;
+	margin-top: 10px;
+}
+
+h1 {
+	color:white;
+	font-family:Nimbus Sans L;
+	font-size: 50px;
+	width: 600px;
+	margin-top: 100px;
+}
+
+p {
+	color:white;
+	font-family: TakaoPGothic;
+	font-size: 19px;
+}
+
+.Fin {
+
+}
+
+.Final {
+	width: 250px; height: 35px;
+	text-align: center;
+	border: solid white 2px;
+}
+
+.GO {
+	width: 65px; height: 40px;
+	text-align: center;
+	background-color: yellow;
+	border: solid yellow 2px;
+	font-size: 20px;
+}
+
+#C {
+	font-size: 8px;
+	color: white;
+	font-family: TakaoPGothic;
+}

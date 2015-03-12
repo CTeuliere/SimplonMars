@@ -1,0 +1,32 @@
+body{
+	background-image: url(images/ami5.png)
+}
+
+body { font-family: "Gill Sans Extrabold", Helvetica, sans-serif }
+
+
+ h1{
+ 	color:black;text-align: center;  border:1px dotted white; margin:100px;
+   }
+   
+   ul{
+   	color:#00FFFF;margin-top: 22px; border-width:1px; background-color: #00FFFF; 
+   }
+
+li{
+	margin-bottom: 25px; 
+ 
+   }
+
+h2{
+	font-size: 24px; color:black;background-color: white; margin: 95px;
+}
+
+img{margin: -30px;}
+
+p{
+	margin: 40px auto; 
+}
+
+   
+    
