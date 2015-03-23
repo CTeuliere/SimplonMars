@@ -1,0 +1,106 @@
+body {
+	width: 100%;
+}
+
+.Haut {
+	margin-left: 640px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-family: Arial;
+	font-size: 13px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+table {
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+td {
+	background-color: grey;
+	border: solid grey 1px;
+}
+
+#Connexion {
+	float: left;
+	color: white;
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: bold;
+	background-color: blue;
+	border: solid blue 1px;
+	border-radius: 2px;
+	height: 30px;
+}
+
+img {
+	margin-top: 150px;
+}
+
+#Google {
+	display: block;
+	width: 500px;
+	height: 25px;
+	border: solid lightgrey 1px;
+}
+
+.RGJDLC {
+	margin-top: 10px;
+}
+
+#RGJDLC {
+	background-color: lightgrey;
+	border: solid darkgrey 1px;
+	color: #3B3C3C;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.Bas {
+	margin-top: 200px;
+	background-color: lightgrey;
+	border: solid darkgrey 1px;
+	height: 40px;
+	margin-bottom: 0px;
+}
+
+#LienBasGauche {
+	margin-top: 12px;
+	margin-left: 10px;
+	margin-left: 10px;
+	color: #3B3C3C;
+	float: left;
+}
+
+#LienBasDroite {
+	margin-top: 12px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #3B3C3C;
+	float: right;
+}
+
+#LienBasGauche:hover {
+	text-decoration: underline;
+	color:#3B3C3C;
+}
+
+#LienBasDroite:hover {
+	text-decoration: underline;
+	color:#3B3C3C;
+}
