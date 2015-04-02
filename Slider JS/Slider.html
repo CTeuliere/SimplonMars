@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Slider.css">
+		<meta charset="utf-8"/>
+		<title>Slider !</title>
+		<script type="text/javascript">
+			var slideimages = new Array() // create new array to preload images
+			slideimages[0] = new Image() // create new instance of image object
+			slideimages[0].src = "http://eserplife.com/wp-content/uploads/2013/12/madrid.jpg" // set image src property to image path, 	preloading 		image in the process
+			slideimages[1] = new Image()
+			slideimages[1].src = "http://fc00.deviantart.net/fs71/f/2012/042/e/b/gonzalo_higuain___cf_real_madrid_by_yuppogfx-d4peqsk.png"
+			slideimages[2] = new Image()
+			slideimages[2].src = "http://fc03.deviantart.net/fs71/f/2010/298/e/4/cr7_is_back_to_real_madrid_by_gx_s3n0r-d31gyke.png"
+			slideimages[3] = new Image()
+			slideimages[3].src = "http://fc06.deviantart.net/fs70/f/2010/322/8/4/gareth_bale_signature_by_flatmate-d333ybn.png"
+			slideimages[4] = new Image()
+			slideimages[4].src = "http://www.zupimages.net/up/15/11/y1bp.png"
+		</script>
+	</head>
+	<body>
+	<center>
+		<h1>Le Real Madrid.</h1>
+		<h3>Le plus grand club de l'histoire.<h3>
+		<img src="http://eserplife.com/wp-content/uploads/2013/12/madrid.jpg" id="slide" width="450" height="150" />
+		<p>10 Coupes D'Europe, 1 Coupe du Monde des Clubs, 3 Coupes Intercontinentale, 2 Supercoupes D'Europe, 2 Europa's League, 32 Championnats d'Espagne, 19 Copas Del Rey et 9 Supercoupes d'Espagne. Le Real Madrid est le meilleur club du monde, et ses titres parlent pour lui. Pourquoi en dire + ?</p>
+
+		<script type="text/javascript">
+
+		//variable that will increment through the images
+		var step=0
+
+		function slideit(){
+		 //if browser does not support the image object, exit.
+		 if (!document.images)
+		  return
+		 document.getElementById('slide').src = slideimages[step].src
+		 if (step<4)
+		  step++
+		 else
+		  step=0
+		 //call function "slideit()" every 2.5 seconds
+		 setTimeout("slideit()",1500)
+		}
+		
+		slideit()
+		
+		</script>
+	</center>
+	</body>
+</html>
