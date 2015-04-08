@@ -3,7 +3,7 @@ body {
 }
 
 .Haut {
-	margin-left: 640px;
+	margin-left: 68%;
 }
 
 a {
@@ -72,7 +72,7 @@ img {
 }
 
 .Bas {
-	margin-top: 200px;
+	margin-top: 210px;
 	background-color: lightgrey;
 	border: solid darkgrey 1px;
 	height: 40px;

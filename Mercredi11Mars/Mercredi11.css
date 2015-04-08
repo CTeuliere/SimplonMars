@@ -1,0 +1,29 @@
+span {float:left;
+	margin-top:0px;}
+
+h1 {text-align:center;
+	font-family:Sawasdee;
+	font-size:40px;
+	text-decoration:underline;
+	margin-top: 5px;}
+
+h3 {color:white;
+	border-style:solid;
+	border-width:2px;
+	border-radius: 15px;
+	border-color: black;
+	width:270px; height:65px;
+	background-color:#3B5998;
+	font-family:Loma;}
+
+table tr th div img {border-radius:100%;}
+
+th {width:350px;}
+
+p {font-family:Sawasdee;}
+
+a {text-decoration:none;}
+
+div {display:inline-block;}
+
+div > a {color:grey;}

@@ -1,0 +1,19 @@
+<h2>| TODO LIST |</h1>
+
+<ul id="todo-list" class="unstyled">
+<% @items.each do |item| %>
+<li id="<%= item[:id] %>">
+<span class="item">
+<%= item[:done] ? "<del>#{item[:content]}</del>" : item[:content] %>
+</span>
+<span class="pull-right">
+<a href="/delete/<%= item[:id] %>" class="btn btn-danger">SUPPRIMER</a>
+</span>
+</li>
+<% end %>
+</ul>
+
+<form action="/todolist" class="form-inline" method="POST">
+	<input id="AF" type="text" placeholder="" name="content">
+	<button id="Envoyer" type="submit" class="btn">Envoyer</button>
+</form>

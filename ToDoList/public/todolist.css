@@ -1,0 +1,29 @@
+body {
+	font-family: TakaoPGothic;
+}
+
+h2 {
+	margin-left: 30px;
+	font-family: Ubuntu;
+}
+
+#AF {
+	width: 300px;
+}
+
+#Envoyer {
+	width: 100px;
+	color: red;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:red;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+}

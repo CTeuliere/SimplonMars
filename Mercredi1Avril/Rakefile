@@ -1,0 +1,2 @@
+require "./ApplicationSin"
+require "sinatra/activerecord/rake"
