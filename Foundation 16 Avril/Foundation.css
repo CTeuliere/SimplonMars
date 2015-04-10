@@ -1,0 +1,11 @@
+#owl-demo .item img{
+	display: block;
+	width: 700px;
+	height: 200px;
+	margin: auto;
+}
+
+p {
+	width: 700px;
+	margin-left: 125px;
+}
