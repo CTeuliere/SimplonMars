@@ -1,0 +1,58 @@
+<style type="text/css">
+	#TableVoiture {
+		width: 400px;
+	}
+	#Etoile {
+		text-align: center;
+	}
+
+	#retour {
+		margin-top: 10px;
+		width: 525px;
+	}
+</style>
+
+<table id="TableVoiture" class="table table-condensed">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Modeles</th>
+			<th>Motorisations</th>
+			<th>Avis Consommateurs</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row"></th>
+			<td>Cayman GT4</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">80%</td>
+		</tr>
+		<tr>
+			<th se="row"></th>
+			<td>911 Carrera GTS</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">90%</td>
+		</tr>
+		<tr>
+			<th scope="row"></th>
+			<td>Panamera S</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">70%</td>
+		</tr>
+		<tr>
+			<th scope="row"></th>
+			<td>Cayenne GTS</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">75%</td>
+		</tr>
+	</tbody>
+</table>
+<p>CHOIX DU MODELE:</p>
+<div class="Choix">
+      <button type="button" onclick="document.location.href='/cayman'" class="btn btn-primary">CAYMAN GT4</button>
+      <button type="button" onclick="document.location.href='/carrera'" class="btn btn-danger">911 CARRERA GTS</button>
+      <button type="button" onclick="document.location.href='/panamera'" class="btn btn-primary">PANAMERA S</button>
+      <button type="button" onclick="document.location.href='/cayenne'" class="btn btn-danger">CAYENNE GTS</button> <br>
+      <button id ="retour" type="button" onclick="document.location.href='/'" class="btn btn-default">Retour</button>
+</div>

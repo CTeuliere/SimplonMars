@@ -1,0 +1,59 @@
+<style type="text/css">
+	#TableVoiture {
+		width: 400px;
+	}
+
+	#Etoile {
+		text-align: center;
+	}
+
+	#retour {
+		margin-top: 10px;
+		width: 440px;
+	}
+</style>
+
+<table id="TableVoiture" class="table table-condensed">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Modeles</th>
+			<th>Motorisations</th>
+			<th>Avis Consommateurs</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row"></th>
+			<td>Aventador</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">90%</td>
+		</tr>
+		<tr>
+			<th se="row"></th>
+			<td>Huracan</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">85%</td>
+		</tr>
+		<tr>
+			<th scope="row"></th>
+			<td>Gallardo</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">75%</td>
+		</tr>
+		<tr>
+			<th scope="row"></th>
+			<td>Murcielago</td>
+			<td>4 Disponibles</td>
+			<td id="Etoile">85%</td>
+		</tr>
+	</tbody>
+</table>
+<p>CHOIX DU MODELE:</p>
+<div class="Choix">
+      <button type="button" onclick="document.location.href='/aventador'" class="btn btn-primary">AVENTADOR</button>
+      <button type="button" onclick="document.location.href='/huracan'" class="btn btn-danger">HURACAN</button>
+      <button type="button" onclick="document.location.href='/gallardo'" class="btn btn-primary">GALLARDO</button>
+      <button type="button" onclick="document.location.href='/murcielago'" class="btn btn-danger">MURCIELAGO</button> <br>
+      <button id ="retour" type="button" onclick="document.location.href='/'" class="btn btn-default">Retour</button>
+</div>
