@@ -65,6 +65,34 @@ get '/panamera' do
 	erb :panamera
 end
 
+get '/ferrari' do
+	erb :ferrari
+end
+
+get '/f458' do
+	erb :f458
+end
+
+get '/california' do
+	erb :california
+end
+
+get '/f12' do
+	erb :f12
+end
+
+get '/ff' do
+	erb :ff
+end
+
+get '/bugatti' do
+	erb :bugatti
+end
+
+get '/veyron' do
+	erb :veyron
+end
+
 get '/confirmation' do
 	erb :confirmation
 end
