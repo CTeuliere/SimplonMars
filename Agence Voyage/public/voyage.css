@@ -1,0 +1,70 @@
+h1 {
+	text-align: center;
+	width: 100%;
+	background-color: orange;
+	margin-top: 0px;
+}
+
+p {
+	margin-top: 3px;
+	text-align: center;
+}
+
+.Haut {
+	background-color: lightblue;
+	margin-top: -7px;
+	width: 100%;
+	height: 30px;
+}
+
+.Droite {
+	background-color: lightblue;
+	width: 210px;
+	height: 620px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+
+.Gauche {
+	background-color: orange;
+	width: 210px;
+	height: 620px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+
+img {
+	margin: 5px;
+}
+
+#MilieuImg {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.formulaire {
+	margin-top: 10px;
+}
+
+.NPAP {
+	width: 400px;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+.VR {
+	margin-top: 5px;
+}
+
+#vr1 {
+	width: 197px;
+}
+
+table {
+	width: 420px;
+	text-align: center;
+}
