@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/Bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/UFC.css">
+		<meta charset="utf-8"/>
+		<title>UFC France</title>
+	</head>
+	<body>
+		<div class="Haut">
+			<a href="/">
+				<h3 id="Titre">UFC FRANCE</h1>
+			</a>
+			<div class="Lien">
+				<a id="Lien" href="http://fr.ufc.com/">UFC Officiel</a>
+				<a id="Lien" href="/combats">Combats</a>
+				<a id="Lien" href="/videos">Videos</a>
+			</div>
+			<button id ="Newsletter" onclick="document.location.href='/inscription'" type="button" class="btn btn-danger">INSCRIPTION NEWSLETTER</button>
+		</div>
+		<%= yield %>
+	</body>
+	<footer>
+		<div class="Bas">
+			<p id="TC">© Teuliere Christopher #SIMPLonMARS</p>
+		</div>
+	</footer>
+</html>
