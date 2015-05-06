@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/Bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/Fnac.css">
+		<meta charset='utf-8'/>
+		<title>Fnac France</title>
+	</head>
+	<body>
+		<div class="Haut">
+			<a href="/">
+				<h4 id="TitreHaut">FNAC FRANCE</h4>
+			</a>
+			<div class="LienHaut">
+				<a id="LienHaut" href="/cd">CD</a>
+				<a id="LienHaut" href="/bluray">Blu-Ray</a>
+				<a id="LienHaut" href="/livre">Livre</a>	
+			</div>
+		</div>
+		<div class="Milieu">
+			<%= yield %>
+		</div>
+		<footer>
+			<div class="Bas">
+				<p id="TC">© Teuliere Christopher #SIMPLonMARS</p>
+			</div>
+		</footer>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/js/bootstrap.js"></script>
+</html>

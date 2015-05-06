@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+body {
+    display : table;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.Haut {
+	margin-top: -10px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+#TC {
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+#TitreHaut {
+	float: left;
+	margin-top: 20px;
+	margin-left: 2%;
+	color: white;
+}
+
+.LienHaut {
+	float: left;
+	margin-left: 10px;
+}
+
+#LienHaut {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+a:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited:hover {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.Milieu {
+	text-align: center;
+}
+
+footer {
+    display : table-row;
+    height: 20px; /* à titre d'exemple */
+}
+
+.Bas {
+	margin-bottom: -10px;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+}
+
+#Index {
+	margin-top: 15px;
+}
+
+#TopIndex {
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+
+#TexteTop {
+	font-size: 11px;
+}
+
+#ImgTop {
+	margin-top: -10px;
+	width: 250px;
+}
+
+.CD {
+	margin-top: 20px;
+}
+
+#ImgCD {
+	width: 100px;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-right: 1px;
+}
+
+#ImgModalCd {
+	width: 300px;
+}
+
+#AR {
+	width: 125px;
+	margin-right: 10px;
+	color: grey
+}
+
+#AR:hover {
+	background-color: grey;
+	color: white;
+	border: solid 1px white;
+}
+
+.Bluray {
+	margin-top: 20px;
+}
+
+#ImgBluray {
+	width: 125px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#ImgModalBluray {
+	width: 275px;
+}
+
+.Livre {
+	margin-top: 20px;
+}
+
+#ImgLivre {
+	width: 200px;
+	display: inline-block;
+}
+
+#ImgModalLivre {
+	width: 300px;
+}
+
+#BM {
+	width: 275px;
+}
