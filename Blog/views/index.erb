@@ -1,0 +1,15 @@
+<h3 id="TitreIndex" class="Center">INFO MERCATO</h3>
+
+<center>
+	<% @b.each do |b| %>
+		<div class="test">
+		<div class="Inline">
+			<a id="aIndex" href="#">#</a> 
+			<%= b.content %>
+			<a id="aIndex" href="/edit/<%=b.id%>">EDITER</a>
+			- 
+			<a id="aIndex" href="/delete/<%=b.id%>">EFFACER</a>
+		</div>
+		</div>
+	<%end%>
+</center>
