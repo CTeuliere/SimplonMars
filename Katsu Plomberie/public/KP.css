@@ -1,0 +1,177 @@
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+body {
+    display : table;
+    width: 100%;
+}
+
+.Haut {
+	height: 80px;
+	margin-left: 30px;
+}
+
+.Inline {
+	display: inline-block;
+}
+
+#ImgLogoTitre {
+	float: left;
+	width: 50px;
+	margin-top: 10px;
+}
+
+#TitreHaut {
+	float: left;
+	margin-top: 27px;
+	margin-left: 10px;
+}
+
+a {
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.InfoBar {
+	width: 100%;
+	height: 100px;
+	background-color: #007FFF;
+}
+
+#ImgNum {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 40px;
+}
+
+#MilieuNum {
+	color: white;
+	font-size: 45px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+#ImgTime {
+	float: right;
+	margin-right: 10px;
+	margin-top: 31px;
+	width: 40px;
+}
+
+#TexteBar {
+	color: white;
+	font-size: 25px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+footer {
+    display : table-row;
+    height: 40px; /* à titre d'exemple */
+}
+.Bas {
+	margin-top: 20px;
+	height: 40px;
+	width: 100%;
+	background-color: #130E0A;
+}
+
+#Copyright {
+	float: left;
+	margin-top: 12px;
+	margin-left: 37%;
+	font-size: 12px;
+	color: white;
+}
+
+#TexteUnderline {
+	text-decoration: underline;
+	color: black;
+}
+
+.MilieuGauche {
+	margin-left: 30px;
+	width: 600px;
+	float: left;
+}
+
+#TextePlombierTitre {
+	color: #007FFF;
+	font-size: 28px;
+}
+
+#ImgPlombier {
+	float: left;
+}
+
+#TexteMilieuGauche {
+	font-size: 15px;
+	float: left;
+}
+
+#TexteMilieuGaucheII {
+	margin-top: -210px;
+	margin-left: 320px;
+	float: left;
+}
+
+.MilieuDroite {
+	margin-right: 30px;
+}
+
+#TexteDevisTitre {
+	color: #007FFF;
+	font-size: 28px;
+	float: right;
+}
+
+#ImgMilieuDroite {
+	width: 125px;
+	float: right;
+	margin-right: 50px;
+}
+
+#TexteDevis {
+	text-align: center;
+	float: right;
+	width: 215px;
+	margin-right: 10px;
+}
+
+.MilieuCentre {
+	clear: both;
+}
+
+#TexteCentre {
+	color: #007FFF;
+	font-weight: bold;
+}
+
+#AvisCentre {
+	width: 400px;
+}
+
+#AvisTitre {
+	text-decoration: underline;
+}
+
+.Avis {
+	margin-top: 10px;
+	width: 500px;
+	height: 150px;
+}
+
+#AvisValider {
+	margin-top: 10px;
+	width: 200px;
+}
+
+#RetourAccueil {
+	width: 400px;
+	margin-top: 20px;
+}
